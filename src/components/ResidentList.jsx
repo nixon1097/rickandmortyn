@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ResidentCard from "./ResidentCard";
 import { paginationLogic } from "../utils/pagination";
-import PaginationList from "./paginationList";
+import PaginationList from "./PaginationList";
 
 const ResidentList = ({ residents }) => {
   const [currentPage, setCurrentPage] = useState(1);
